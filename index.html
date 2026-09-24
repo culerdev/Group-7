@@ -9,12 +9,46 @@
 <body>
 
     <!-- Leader: Code phần Header & Hero Section -->
-    <header id="header">
-        <!-- Code header của bạn 1 ở đây -->
+     <header>
+        <nav>
+            <div class="logo">
+                <a href="#" aria-label="Trafalgar home">
+                    <img src="assets/logo.jpg" alt="Trafalgar logo">
+                </a>
+            </div>
+            <ul class="desktop-nav">
+                <li><a href="#" class="home">Home</a></li>
+                <li><a href="#">Find a doctor</a></li>
+                <li><a href="#">Apps</a></li>
+                <li><a href="#">Testimonials</a></li>
+                <li><a href="#">About us</a></li>
+            </ul>
+            <label class="hamburger" for="menu-toggle"><i class="fa-solid fa-bars"></i></label>
+            <input type="checkbox" id="menu-toggle">
+            <ul class="mobile-nav">
+                <label class="close" for="menu-toggle">x</label>
+                <li><a href="#" class="home">Home</a></li>
+                <li><a href="#">Find a doctor</a></li>
+                <li><a href="#">Apps</a></li>
+                <li><a href="#">Testimonials</a></li>
+                <li><a href="#">About us</a></li>
+            </ul>
+
+        </nav>
     </header>
-    <section id="hero">
-        <!-- Code hero section của bạn 1 ở đây -->
-    </section>
+ <!-- HERO  -->
+        <section class="hero">
+            <div class="hero-left">            
+                <h1>Virtual healthcare 
+                for you</h1>
+                <p>Trafalgar provides progressive, and affordable healthcare, accessible on mobile and online for everyone</p>
+                <a href="#"><button class="primary-button">Consult today</button></a>
+            </div>
+            <div class="hero-right">
+                <img src="assets/hero.jpg" alt="Virtual healthcare consultation">
+            </div>
+
+        </section>
 
     <!-- Thành viên  : Code phần Our Services (6 ô dịch vụ) -->
     <section id="services">

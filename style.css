@@ -1,0 +1,95 @@
+/* --- HEADER TRÀN VIỀN TOÀN MÀN HÌNH --- */
+header {
+    width: 100%;
+    padding: 30px 50px; /* Khoảng cách đệm hai bên mép màn hình */
+    box-sizing: border-box;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between; /* Đẩy logo sát trái, menu sát phải */
+    align-items: center;
+    width: 100%;
+}
+
+.logo img {
+    height: 45px;
+    width: auto;
+}
+
+.desktop-nav {
+    display: flex;
+    list-style: none;
+    gap: 50px; /* Khoảng cách giữa các mục menu */
+}
+
+.desktop-nav a {
+    text-decoration: none;
+    color: #1F1534;
+    opacity: 0.5;
+    font-size: 16px;
+}
+
+.desktop-nav a.home,
+.desktop-nav a:hover {
+    opacity: 1;
+    font-weight: 700;
+}
+
+.hamburger, #menu-toggle, .mobile-nav {
+    display: none;
+}
+
+
+/* --- HERO SECTION TRÀN VIỀN TOÀN MÀN HÌNH --- */
+.hero {
+    width: 100%;
+    padding: 20px 50px; /* Trải rộng đều sang hai bên mép màn hình */
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.hero-left {
+    flex: 1;
+}
+
+.hero-left h1 {
+    font-size: 48px;
+    line-height: 1.2;
+    color: #000000;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.hero-left p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #7D7987;
+    margin-bottom: 40px;
+    max-width: 480px; /* Giới hạn độ rộng đoạn văn cho dễ đọc */
+}
+
+.primary-button {
+    background-color: #458FF6;
+    color: #ffffff;
+    border: none;
+    padding: 16px 40px;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 55px;
+    cursor: pointer;
+}
+
+.hero-right {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end; /* Đẩy hình ảnh sang phía bên phải màn hình */
+}
+
+.hero-right img {
+    max-width: 100%;
+    height: auto;
+}
